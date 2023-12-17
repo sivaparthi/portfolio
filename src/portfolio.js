@@ -23,7 +23,7 @@ const greeting = {
   username: "Siva P",
   title: "Hi all, I'm Siva P",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 having experience of building Web applications with Python and specialization in Machine Learning and a strong foundation in Deep Learning."
+    "Passionate Software Developer 🚀 skilled in Python, specializing in Machine Learning and possessing a solid foundation in Deep Learning for building innovative AI solutions for businesses."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1NxjqgWgl0ppEdCEmWMMNsuGj6A4oJPbs/view?usp=drive_link", // Set to empty to hide the button
