@@ -190,7 +190,7 @@ const workExperiences = {
       company: "IBM",
       companylogo: require("./assets/images/ibm-ss.PNG"),
       date: "Jan 2023 – Jun 2023",
-      desc: "As a software intern, I undertook the development of a tool designed to convert Electronic Data Interchange (EDI) formats into human-readable English through the application of Natural Language Processing (NLP) and language models. "
+      desc: "As a software developer sintern, I undertook the development of a tool designed to convert Electronic Data Interchange (EDI) formats into human-readable English through the application of Natural Language Processing (NLP) and language models. "
     },
     {
       role: "Research Intern",
