@@ -26,7 +26,7 @@ const greeting = {
     "Passionate Software Developer 🚀 skilled in Python, specializing in Machine Learning and possessing a solid foundation in Deep Learning for building innovative AI solutions for businesses."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1NxjqgWgl0ppEdCEmWMMNsuGj6A4oJPbs/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1snGopTHeqJmEdoXw64lC7TeH4fknn5s-/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
