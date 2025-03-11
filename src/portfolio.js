@@ -23,10 +23,10 @@ const greeting = {
   username: "Siva P",
   title: "Hi all, I'm Siva",
   subTitle: emoji(
-    "Passionate Software Developer 🚀 skilled in Python, specializing in Machine Learning and possessing a solid foundation in Deep Learning for building innovative AI solutions for businesses."
-  ),
+    "Innovative Software Engineer 🚀 with expertise in Python, Backend Development, and Cloud Infrastructure. Passionate about automating workflows, optimizing performance, and integrating AI-driven solutions to solve real-world challenges."
+  ),  
   resumeLink:
-    "https://drive.google.com/file/d/1snGopTHeqJmEdoXw64lC7TeH4fknn5s-/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1aNRGswLj7KTQX8Pdknx8lUBNSSSMBmnN/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -50,14 +50,31 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Crafting Scalable Solutions, Automating Everything, and Exploring the Future of Tech",
   skills: [
     emoji(
-      "⚡ Develop tools which are used to solve real world business problems"
+      "⚡ Develop tools to solve real-world business problems efficiently"
     ),
-    // emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS"
+      "⚡ Automate infrastructure deployment using Ansible and Kubernetes"
+    ),
+    emoji(
+      "⚡ Implement CI/CD pipelines to streamline application deployment"
+    ),
+    emoji(
+      "⚡ Build scalable and containerized applications using Docker & Kubernetes"
+    ),
+    emoji(
+      "⚡ Design and integrate Large Language Models (LLMs) for AI-driven solutions"
+    ),
+    emoji(
+      "⚡ Enhance database performance using connection pooling and async processing"
+    ),
+    emoji(
+      "⚡ Integrate third-party cloud services such as AWS, Firebase, and IBM Cloud"
+    ),
+    emoji(
+      "⚡ Develop backend services using Django, Flask, and PostgreSQL"
     )
   ],
 
@@ -65,50 +82,6 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    // {
-    //   skillName: "html-5",
-    //   fontAwesomeClassname: "fab fa-html5"
-    // },
-    // {
-    //   skillName: "css3",
-    //   fontAwesomeClassname: "fab fa-css3-alt"
-    // },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
-    // {
-    //   skillName: "JavaScript",
-    //   fontAwesomeClassname: "fab fa-js"
-    // },
-    // {
-    //   skillName: "reactjs",
-    //   fontAwesomeClassname: "fab fa-react"
-    // },
-    // {
-    //   skillName: "nodejs",
-    //   fontAwesomeClassname: "fab fa-node"
-    // },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
@@ -116,6 +89,62 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "linux",
+      fontAwesomeClassname: "fa-brands fa-linux"
+    },
+    {
+      skillName: "kubernetes",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
+      skillName: "django",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "flask",
+      fontAwesomeClassname: "fas fa-flask"
+    },
+    {
+      skillName: "neo4j",
+      fontAwesomeClassname: "fas fa-project-diagram"
+    },
+    {
+      skillName: "pytorch",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
+      skillName: "ci/cd",
+      fontAwesomeClassname: "fas fa-tools"
+    },
+    {
+      skillName: "redis",
+      fontAwesomeClassname: "fas fa-server"
+    },
+    {
+      skillName: "celery",
+      fontAwesomeClassname: "fas fa-seedling"
+    },
+    {
+      skillName: "kafka",
+      fontAwesomeClassname: "fas fa-exchange-alt"
+    },
+    {
+      skillName: "github-actions",
+      fontAwesomeClassname: "fab fa-github"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -131,7 +160,7 @@ const educationInfo = {
       logo: require("./assets/images/cit_logo.png"),
       subHeader: "Bachelor of Engineering in Electronics and Communication",
       duration: "August 2019 - May 2023",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Operating Systems, Data Structures.",
+      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Operating Systems, Data Structures and Algorithms, Computer Networks and Databases.",
       // descBullets: [
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -155,14 +184,22 @@ const techStack = {
   experience: [
     {
       Stack: "Python", //Insert stack or technology you have experience in
-      progressPercentage: "80%" //Insert relative proficiency in percentage
+      progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%"
     },
     {
       Stack: "Programming",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Docker / Kubernetes",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "CI / CD",
       progressPercentage: "80%"
     }
   ],
@@ -172,17 +209,32 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Software Engineer",
+      company: "Navriti Technologies",
+      companylogo: require("./assets/images/navriti_logo.png"),
+      date: "Sep 2024 – Present",
+      desc: "At Navriti Technologies, I focus on automating infrastructure, enhancing deployment efficiency, and ensuring system reliability through cloud and DevOps solutions.",
+      descBullets: [
+        "Built CI/CD pipelines using GitHub Actions, eliminating manual deployments and accelerating the release cycle.",
+        "Automated the movement of development code to the QA environment using cron jobs, ensuring smooth code transitions.",
+        "Set up Kubernetes clusters with auto-healing and auto-scaling for UAT and Production environments, achieving 99.9% uptime.",
+        "Implemented Ansible-based automation for server configuration and management, reducing manual effort by 80%."
+      ]
+    },
     {
       role: "Software Developer",
       company: "IBM",
       companylogo: require("./assets/images/ibm-ss.PNG"),
-      date: "July 2023 – Present",
-      desc: "As a software developer, I am entrusted with the responsibility of conceiving and constructing solutions to address business challenges.",
+      date: "July 2023 – July 2024",
+      desc: "As a software developer, I was responsible for designing and implementing solutions to address critical business challenges.",
       descBullets: [
-        "Engineered a robust pipeline to verify the integrity of business documents, ensuring the seamless flow of business operations.",
-        "Plays a pivotal role in rectifying software bugs and implementing enhancements to existing applications."
+        "Developed a robust document validation pipeline, ensuring seamless business operations by automating document integrity checks.",
+        "Optimized database interactions using connection pooling, improving query response times by 30%.",
+        "Integrated large language models like LLAMA 3 and Mistral into IBM’s chatbot, enhancing AI-driven interactions.",
+        "Enhanced deployment efficiency by up to 40% through Docker containerization for scalable application deployment."
       ]
     },
     {
@@ -190,29 +242,30 @@ const workExperiences = {
       company: "IBM",
       companylogo: require("./assets/images/ibm-ss.PNG"),
       date: "Jan 2023 – Jun 2023",
-      desc: "As a software developer sintern, I undertook the development of a tool designed to convert Electronic Data Interchange (EDI) formats into human-readable English through the application of Natural Language Processing (NLP) and language models. "
+      desc: "Developed a tool to translate Electronic Data Interchange (EDI) formats into human-readable English using NLP and Language Models."
     },
     {
       role: "Research Intern",
       company: "National Institute of Technology, Trichy",
       companylogo: require("./assets/images/NITT_logo.png"),
       date: "May 2022 – Aug 2022",
-      desc: "",
+      desc: "Conducted research on AI-driven language models for legal text classification and synthetic data generation.",
       descBullets: [
-        "Worked with open sourced Hugging Face model to develop robust Language model which can be used to classify legal text data.",
-        "Produced clean synthetic data using GPT 3 which is made open to further researches in Legal domain.",
-        "Used the synthetic data to fine tune open sourced language models and compared their performance with OpenAI’s SOTA model."
+        "Developed a robust NLP model using Hugging Face transformers for legal text classification.",
+        "Generated high-quality synthetic legal data using GPT-3, open-sourcing 47,000+ data points for further research.",
+        "Fine-tuned open-source language models and benchmarked them against OpenAI’s state-of-the-art models."
       ]
     }
   ]
 };
+  
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
