@@ -23,7 +23,7 @@ const greeting = {
   username: "Siva P",
   title: "Hi all, I'm Siva",
   subTitle: emoji(
-    "Innovative Software Engineer 🚀 with expertise in Python, Backend Development, and Cloud Infrastructure. Passionate about automating workflows, optimizing performance, and integrating AI-driven solutions to solve real-world challenges."
+    "Innovative Software Engineer 🚀 with expertise in Python, Backend Development, and Cloud Infrastructure. Passionate about building scalable systems, automating workflows, optimizing performance, and integrating AI-driven solutions to solve real-world challenges."
   ),  
   resumeLink:
     "https://drive.google.com/file/d/1aNRGswLj7KTQX8Pdknx8lUBNSSSMBmnN/view?usp=drive_link", // Set to empty to hide the button
@@ -50,13 +50,16 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Crafting Scalable Solutions, Automating Everything, and Exploring the Future of Tech",
+  subTitle: "Designing Scalable Solutions, Driving Automation.",
   skills: [
     emoji(
       "⚡ Develop tools to solve real-world business problems efficiently"
     ),
     emoji(
-      "⚡ Automate infrastructure deployment using Ansible and Kubernetes"
+      "⚡ Build highly available systems with Auto Scaling and Auto Healing"
+    ),
+    emoji(
+      "⚡ Automate infrastructure configuration using Ansible"
     ),
     emoji(
       "⚡ Implement CI/CD pipelines to streamline application deployment"
@@ -65,7 +68,7 @@ const skillsSection = {
       "⚡ Build scalable and containerized applications using Docker & Kubernetes"
     ),
     emoji(
-      "⚡ Design and integrate Large Language Models (LLMs) for AI-driven solutions"
+      "⚡ Finetune and integrate Large Language Models (LLMs) for AI-driven solutions"
     ),
     emoji(
       "⚡ Enhance database performance using connection pooling and async processing"
