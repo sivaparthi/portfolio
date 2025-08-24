@@ -26,14 +26,14 @@ const greeting = {
     "Innovative Software Engineer 🚀 with expertise in Python, Backend Development, and Cloud Infrastructure. Passionate about building scalable systems, automating workflows, optimizing performance, and integrating AI-driven solutions to solve real-world challenges."
   ),  
   resumeLink:
-    "https://drive.google.com/file/d/1aNRGswLj7KTQX8Pdknx8lUBNSSSMBmnN/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1aNRGswLj7KTQX8Pdknx8lUBNSSSMBmnN/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  // github: "https://github.com/saadpasta",
+  github: "https://github.com/sivaparthi",
   linkedin: "https://www.linkedin.com/in/siva-sundara-krishna-p-19b642218/",
   gmail: "sivaparthi1989@gmail.com",
   // leetcode: "https://leetcode.com/sivaparthi1989/",
@@ -216,9 +216,19 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
+      company: "ThoughtClan Technologies",
+      companylogo: require("./assets/images/thoughtclan_logo.png"),
+      date: "Aug 2025 – Present",
+      desc: "As a software engineer at ThoughtClan, I focus on building ML/AI solutions with cutting edge technologies like LLMs, SLMs, RAG and more.",
+      descBullets: [
+        "Built web scraper and crawler using selenium and beautifulsoup to gather data from various sources for building our internal Knowledege base which serves as a backbone for one the products.",
+      ]
+    },
+    {
+      role: "Software Engineer",
       company: "Navriti Technologies",
       companylogo: require("./assets/images/navriti_logo.png"),
-      date: "Sep 2024 – Present",
+      date: "Sep 2024 – July 2025",
       desc: "At Navriti Technologies, I focus on automating infrastructure, enhancing deployment efficiency, and ensuring system reliability through cloud and DevOps solutions.",
       descBullets: [
         "Built CI/CD pipelines using GitHub Actions, eliminating manual deployments and accelerating the release cycle.",
